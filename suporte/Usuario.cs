@@ -1,9 +1,9 @@
-public abstract class Usuario {
-    public int id {get; protected set;}
-    public string nome {get; protected set;}
-    public string email {get; protected set;}
+public abstract class Usuario : Cliente {
+    public int id 
+    public string nome 
+    public string email 
 
-        protected Usuario (int id, string nome , string email){
+        public Usuario (int id, string nome , string email){
             Id = id;
             Nome = nome;
             Email = email;  
