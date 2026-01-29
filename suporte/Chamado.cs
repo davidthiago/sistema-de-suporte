@@ -4,9 +4,9 @@ class Chamado : IAtribuivel, IEncerravel {
     public string status;
     public string cliente;
     public string tecnico;
-    public string categori;
+    public string categoria;
 
-    public Chamado (int id, string descricao, string cliente, ){
+    public Chamado (int Id, string Descricao, string Cliente ){
         Id = id;
         Descricao = descricao;
         Cliente = cliente;
@@ -14,6 +14,4 @@ class Chamado : IAtribuivel, IEncerravel {
         Categoria = categoria;
 
     }
-
-    private Historico
 }
