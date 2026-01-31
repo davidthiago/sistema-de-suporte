@@ -4,9 +4,9 @@ public abstract class Usuario : Cliente {
     public string email; 
 
         public Usuario (int newId, string newNome , string newEmail){
-            Newid = id;
-            newNome = nome;
-            newEmail = email;  
+            this.id = Newid;
+            this.nome = Newnome;  
+            this.email = Newemail;
         }         
 
     public abstract void ExibirDados();
