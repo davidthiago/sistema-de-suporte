@@ -1,4 +1,5 @@
 namespace Sistema{
+    
 class Chamado : IAtribuivel, IEncerravel {
     public int id;
     public string descricao;

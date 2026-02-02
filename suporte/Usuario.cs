@@ -11,4 +11,3 @@ public abstract class Usuario : Cliente {
 
     public abstract void ExibirDados();
 }
-

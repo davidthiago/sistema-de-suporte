@@ -1,3 +1,5 @@
+namespace Sistema{
+    
 class categoria {
     public int id;
     public string nome;
@@ -7,4 +9,5 @@ class categoria {
         Nome = nome;
     } 
     
+}
 }
