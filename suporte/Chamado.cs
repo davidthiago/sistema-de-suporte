@@ -1,26 +1,37 @@
 namespace Sistema{
-    
-class Chamado : IAtribuivel, IEncerravel {
-    public int id;
-    public string descricao;
-    public status status;
-    public Cliente cliente;
-    public Tecnico tecnico;
-    public Categoria categoria; 
-
-    public Chamado (int Id, string Descricao, string Cliente ){
-        this.id = Id;
-        this.descricao = Descricao;
-        this.cliente = Cliente;
-        this.tecnico = Tecnico;
-        this.categoria = categoria;
+    public class Chamado : IAtribuivel, IEncerravel{
+        public int Id;
+        public string Descricao;
+        public Status Status;
+        public Cliente Cliente;
+        public Tecnico Tecnico;
+        public Categoria Categoris;
+        
+        //Quaqlq coisa tira o get private
+        public List<HistoricoChamado> Historico { get; private set; }
+        public Chamado (int id, string descricao, Cliente cliente, Categoria categoria){
+            Id = id;
+            Descricao = descricao;
+            Cliente = cliente;
+            Categoria = categoria;
+            Status = Status.Abertp;
+            Historico = new List<HistoricoChamado>();
+        }
+        public void AdicionarHistorico (string descricao){
+            Historico.Add(new HistoricoChamado(descricao));
+        }
+        public void SetStatus (Status status){
+            Status = status;
+        }
+        public void AtribuirTecnico (Tecnico tecnico){
+            Tecnico = tecnico;
+            SetStatus(Status.EmAndamento);
+        }
+        public void Encerrar(){
+            SetStatus(Status.Emcerrado);
+        }
+        public Tecnico GetTecnico(){
+            return Tecnico;
+        }
     }
-
-    public AdicionarHistorico (string descricao){
-
-    }
-
-    public SetStatus (){}
-
-}
 }
