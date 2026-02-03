@@ -1,7 +1,9 @@
-namespace Sistema{
-enum Status{
-    ABERTO,
-    EM_ANDAMENTO,
-    ENCERRADO
-}
+namespace Sistema
+{
+    enum Status
+    {
+        ABERTO,
+        EM_ANDAMENTO,
+        ENCERRADO
+    }
 }
