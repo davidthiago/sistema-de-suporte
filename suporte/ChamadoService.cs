@@ -1,6 +1,6 @@
 namespace Sistema{
     
-    class ChamadoServoce{
+    class ChamadoService{
         private List<Chamado> chamados { get; set; }
         AbrirChamado(Cliente cliente, Categoria categoria, string descricao){
             return Chamado;
