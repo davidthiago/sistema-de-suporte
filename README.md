@@ -33,3 +33,8 @@ As interfaces que são implementadas, são bem específicas e diretas, são inte
 - D
 
 A classe "Chamado" precisa implementar as interfaces para que sua funcionalidade seja execultada com sucesso.
+
+# Alunos
+
+- Arthur Lima
+- David Thiago
