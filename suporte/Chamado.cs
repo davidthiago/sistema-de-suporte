@@ -5,26 +5,26 @@ namespace Sistema{
         public Status Status;
         public Cliente Cliente;
         public Tecnico Tecnico;
-        public Categoria Categoris;
+        public Categoria Categoria;
 
         //Quaqlq coisa tira o get private
         public List<HistoricoChamado> Historico { get; private set; }
         public Chamado(int id, string descricao, Cliente cliente, Categoria categoria){
-            Id = id;
-            Descricao = descricao;
-            Cliente = cliente;
-            Categoria = categoria;
-            Status = Status.ABERTO;
+            this.Id = id;
+            this.Descricao = descricao;
+            this.Cliente = cliente;
+            this.Categoria = categoria;
+            this.Status = Status.ABERTO;
             Historico = new List<HistoricoChamado>();
         }
         public void AdicionarHistorico(string descricao){
             Historico.Add(new HistoricoChamado(descricao));
         }
-        public void SetStatus(Status status){
+        void SetStatus(Status status){
             Status = status;
         }
         public void AtribuirTecnico(Tecnico tecnico){
-            Tecnico = tecnico;
+            this.Tecnico = tecnico;
             SetStatus(Status.EM_ANDAMENTO);
         }
         public void Encerrar(){

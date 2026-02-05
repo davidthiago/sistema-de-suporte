@@ -4,6 +4,6 @@ namespace Sistema{
     //Métodos simples e curto da interface
     
     public interface IAtribuivel{
-        void AtribuirTecnico();
+        void AtribuirTecnico(Tecnico tecnico);
     }
 }

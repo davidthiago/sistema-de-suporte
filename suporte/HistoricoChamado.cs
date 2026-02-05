@@ -4,12 +4,19 @@ namespace Sistema
     {
         public DateTime Data;
         public string Descricao; 
-        public Status StatusAnterior;
-        public HistoricoChamado(string descricao, Status statusAnterior)
+        Status StatusAnterior;
+
+        HistoricoChamado(string descricao, Status statusAnterior)
         {
-            Data = DateTime.Now;
-            Descricao = descricao;
+            this.Data = DateTime.Now;
+            this.Descricao = descricao;
             this.StatusAnterior = statusAnterior;
+        }
+
+        public HistoricoChamado(string descricao)
+        {
+            this.Data = DateTime.Now;
+            this.Descricao = descricao;
         }
     }
 

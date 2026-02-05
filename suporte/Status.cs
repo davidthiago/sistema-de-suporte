@@ -1,5 +1,5 @@
 namespace Sistema{
-    enum Status{
+    public enum Status{
         ABERTO,
         EM_ANDAMENTO,
         ENCERRADO

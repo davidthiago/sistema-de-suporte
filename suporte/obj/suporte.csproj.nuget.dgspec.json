@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\suporte.csproj": {}
+    "C:\\Users\\arthu\\OneDrive\\Documentos\\SistemaDeSuporte\\sistema-de-suporte\\suporte\\suporte.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\suporte.csproj": {
+    "C:\\Users\\arthu\\OneDrive\\Documentos\\SistemaDeSuporte\\sistema-de-suporte\\suporte\\suporte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\suporte.csproj",
+        "projectUniqueName": "C:\\Users\\arthu\\OneDrive\\Documentos\\SistemaDeSuporte\\sistema-de-suporte\\suporte\\suporte.csproj",
         "projectName": "suporte",
-        "projectPath": "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\suporte.csproj",
-        "packagesPath": "C:\\Users\\CCE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\obj\\",
+        "projectPath": "C:\\Users\\arthu\\OneDrive\\Documentos\\SistemaDeSuporte\\sistema-de-suporte\\suporte\\suporte.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arthu\\OneDrive\\Documentos\\SistemaDeSuporte\\sistema-de-suporte\\suporte\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CCE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

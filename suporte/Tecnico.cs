@@ -3,11 +3,11 @@ namespace Sistema{
         public Tecnico(int id, string nome, string email)
             : base(id, nome, email){
         }
-        public void ExibirDados(){
+        public override void ExibirDados(){
             Console.WriteLine("Tecnico: " + Nome);
             Console.WriteLine("Email: " + Email);
         }
-        public void MudarStatus(Chamado chamado, Status novoStatus){
+        void MudarStatus(Chamado chamado, Status novoStatus){
             if (chamado.Status == Status.ENCERRADO){
                 throw new Exception("Chamado já foi encerrado.");
             }

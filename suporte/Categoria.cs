@@ -4,8 +4,8 @@ namespace Sistema{
         public string Nome;
 
         public Categoria(int id, string nome){
-            Id = id;
-            Nome = nome;
+            this.Id = id;
+            this.Nome = nome;
         }
     }
 }

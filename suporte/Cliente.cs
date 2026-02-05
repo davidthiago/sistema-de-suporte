@@ -9,7 +9,7 @@ namespace Sistema{
             Console.WriteLine("Cliente: " + Nome);
             Console.WriteLine("Email: " + Email);
         }
-        public Chamado AbrirChamado(
+        Chamado AbrirChamado(
             string titulo,
             string descricao,
             Categoria categoria,
