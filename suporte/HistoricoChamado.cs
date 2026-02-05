@@ -2,8 +2,8 @@ namespace Sistema
 {
     public class HistoricoChamado
     {
-        public DateTime Data { get; private set; }
-        public string Descricao { get; private set; }
+        public DateTime Data;
+        public string Descricao; 
         public Status StatusAnterior;
         public HistoricoChamado(string descricao, Status statusAnterior)
         {
