@@ -1,7 +1,9 @@
 ﻿using System;
 
-class program{
-    static void Main (string[] args) {
-        Console.WriteLine("Sistema iiniciado");
+namespace Sistema{
+    class Program{
+        static void Main(string[] args){
+            Console.WriteLine("Sistema iniciado");
+        }
     }
 }

@@ -1,15 +1,11 @@
-namespace Sistema
-{
-    class categoria
-    {
-        public int id;
-        public string nome;
+namespace Sistema{
+    public class Categoria{
+        public int Id;
+        public string Nome;
 
-        public Categoria(int id, string nome)
-        {
-            this.id = id;
-            this.nome = nome;
+        public Categoria(int id, string nome){
+            Id = id;
+            Nome = nome;
         }
-
     }
 }

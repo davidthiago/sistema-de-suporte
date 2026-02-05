@@ -1,7 +1,5 @@
-namespace Sistema
-{
-    public interface IAtribuivel
-    {
+namespace Sistema{
+    public interface IAtribuivel{
         void AtribuirTecnico();
     }
 }

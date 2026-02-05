@@ -1,7 +1,5 @@
-namespace Sistema
-{
-    public interface IEncerravel
-    {
+namespace Sistema{
+    public interface IEncerravel{
         void Encerrar();
     }
 }

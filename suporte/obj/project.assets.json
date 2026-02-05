@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CCE\\suporte\\suporte.csproj",
+      "projectUniqueName": "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\suporte.csproj",
       "projectName": "suporte",
-      "projectPath": "C:\\Users\\CCE\\suporte\\suporte.csproj",
+      "projectPath": "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\suporte.csproj",
       "packagesPath": "C:\\Users\\CCE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CCE\\suporte\\obj\\",
+      "outputPath": "C:\\Users\\CCE\\sistema-de-suporte\\suporte\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CCE\\AppData\\Roaming\\NuGet\\NuGet.Config"
